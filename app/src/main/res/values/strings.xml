@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bucharest_Tour_Guide</string>
+
+    <!-- Category name for the top attractions -->
+    <string name="category_top_attractions">Top Attractions</string>
+
+    <!-- Category name for architecural buildings -->
+    <string name="category_architectural_buildings">Architectural Buildings</string>
+
+    <!-- Category name for museums -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for nature and parks -->
+    <string name="category_landmarks">Landmarks</string>
+
+</resources>
