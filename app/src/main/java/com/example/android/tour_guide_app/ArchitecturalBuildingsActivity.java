@@ -15,18 +15,18 @@ public class ArchitecturalBuildingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.location_list);
 
-        // Create an array of words
+        // Create an array of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("BNR Palace", "Str. Lipscani 25", R.drawable.ab_bnr_palace));
-        locations.add(new Location("CEC Palace", "Calea Victoriei 13", R.drawable.ab_cec_palace));
-        locations.add(new Location("Central University Library", "Strada Boteanu 1", R.drawable.ab_central_university_library));
-        locations.add(new Location("Cercul Militar", "1, Constantin Mille St", R.drawable.ab_cercul_militar));
-        locations.add(new Location("Coltea Hospital", "Blvd I.C.Bratianu nr. 1", R.drawable.ab_coltea_hospital));
-        locations.add(new Location("Coral Temple", "Str. Sf. Vineri, Nr. 9", R.drawable.ab_coral_temple));
-        locations.add(new Location("Palace of Parliament", "Izvor Street, 2-4", R.drawable.ab_palace_of_parliament));
-        locations.add(new Location("Romanian Atheneum", "Str. Franklin 1", R.drawable.ab_romanian_atheneum));
-        locations.add(new Location("Royal Palace", "Calea Victoriei 49-53", R.drawable.ab_royal_palace));
-        locations.add(new Location("Stavropoleos Church", "Str. Stavropoleos nr.4", R.drawable.ab_stavropoleos_church));
+        locations.add(new Location(getString(R.string.ab_attraction_one_name), getString(R.string.ab_attraction_one_address), R.drawable.ab_bnr_palace));
+        locations.add(new Location(getString(R.string.ab_attraction_two_name), getString(R.string.ab_attraction_two_address), R.drawable.ab_cec_palace));
+        locations.add(new Location(getString(R.string.ab_attraction_three_name), getString(R.string.ab_attraction_three_address), R.drawable.ab_central_university_library));
+        locations.add(new Location(getString(R.string.ab_attraction_four_name), getString(R.string.ab_attraction_four_address), R.drawable.ab_cercul_militar));
+        locations.add(new Location(getString(R.string.ab_attraction_five_name), getString(R.string.ab_attraction_five_address), R.drawable.ab_coltea_hospital));
+        locations.add(new Location(getString(R.string.ab_attraction_six_name), getString(R.string.ab_attraction_six_address), R.drawable.ab_coral_temple));
+        locations.add(new Location(getString(R.string.ab_attraction_seven_name), getString(R.string.ab_attraction_seven_address), R.drawable.ab_palace_of_parliament));
+        locations.add(new Location(getString(R.string.ab_attraction_eight_name), getString(R.string.ab_attraction_eight_address), R.drawable.ab_romanian_atheneum));
+        locations.add(new Location(getString(R.string.ab_attraction_nine_name), getString(R.string.ab_attraction_nine_address), R.drawable.ab_royal_palace));
+        locations.add(new Location(getString(R.string.ab_attraction_ten_name), getString(R.string.ab_attraction_ten_address), R.drawable.ab_stavropoleos_church));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

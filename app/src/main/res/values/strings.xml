@@ -10,7 +10,94 @@
     <!-- Category name for museums -->
     <string name="category_museums">Museums</string>
 
-    <!-- Category name for nature and parks -->
+    <!-- Category name for landmarks -->
     <string name="category_landmarks">Landmarks</string>
 
+    <!-- Names and addresses for top attractions category -->
+    <string name="ta_attraction_one_name">Palace of Parliament</string>
+    <string name="ta_attraction_one_address">Izvor Street, 2</string>
+    <string name="ta_attraction_two_name">Cismigiu Gardens</string>
+    <string name="ta_attraction_two_address">Intersection of Piata Revolutiei and Bdul Kogalniceanu</string>
+    <string name="ta_attraction_three_name">Grigore Antipa Museum</string>
+    <string name="ta_attraction_three_address">Sos. Kiseleff nr. 1</string>
+    <string name="ta_attraction_four_name">Herastrau Park</string>
+    <string name="ta_attraction_four_address">Bulevardul Aviatorilor</string>
+    <string name="ta_attraction_five_name">Old Town</string>
+    <string name="ta_attraction_five_address">City Center</string>
+    <string name="ta_attraction_six_name">Revolution Square</string>
+    <string name="ta_attraction_six_address">Calea Victoriei Boulevard</string>
+    <string name="ta_attraction_seven_name">Spring Palace</string>
+    <string name="ta_attraction_seven_address">Primaverii Blvd., No.50</string>
+    <string name="ta_attraction_eight_name">Stavropoleos Church</string>
+    <string name="ta_attraction_eight_address">Str. Stavropoleos nr.4</string>
+    <string name="ta_attraction_nine_name">Victoriei Street</string>
+    <string name="ta_attraction_nine_address">Victoriei Street</string>
+    <string name="ta_attraction_ten_name">Village Museum</string>
+    <string name="ta_attraction_ten_address">Kiseleff Road 28</string>
+
+    <!-- Names and addresses for architectural buildings category -->
+    <string name="ab_attraction_one_name">BNR Palace</string>
+    <string name="ab_attraction_one_address">Str. Lipscani 25</string>
+    <string name="ab_attraction_two_name">CEC Palace</string>
+    <string name="ab_attraction_two_address">Calea Victoriei 13</string>
+    <string name="ab_attraction_three_name">Central University Library</string>
+    <string name="ab_attraction_three_address">Strada Boteanu 1</string>
+    <string name="ab_attraction_four_name">Cercul Militar</string>
+    <string name="ab_attraction_four_address">1, Constantin Mille St</string>
+    <string name="ab_attraction_five_name">Coltea Hospital</string>
+    <string name="ab_attraction_five_address">Blvd I.C.Bratianu nr. 1</string>
+    <string name="ab_attraction_six_name">Coral Temple</string>
+    <string name="ab_attraction_six_address">Str. Sf. Vineri, Nr. 9</string>
+    <string name="ab_attraction_seven_name">Palace of Parliament</string>
+    <string name="ab_attraction_seven_address">Izvor Street, 2</string>
+    <string name="ab_attraction_eight_name">Romanian Atheneum</string>
+    <string name="ab_attraction_eight_address">Str. Franklin 1</string>
+    <string name="ab_attraction_nine_name">Royal Palace</string>
+    <string name="ab_attraction_nine_address">Calea Victoriei 49</string>
+    <string name="ab_attraction_ten_name">Stavropoleos Church</string>
+    <string name="ab_attraction_ten_address">Str. Stavropoleos nr.4</string>
+
+    <!-- Names and addresses for museums category -->
+    <string name="m_attraction_one_name">George Enescu Museum</string>
+    <string name="m_attraction_one_address">Calea Victorei 141</string>
+    <string name="m_attraction_two_name">Grigore Antipa Museum</string>
+    <string name="m_attraction_two_address">Sos. Kiseleff nr. 1</string>
+    <string name="m_attraction_three_name">National Military Museum</string>
+    <string name="m_attraction_three_address">Strada Mircea Vulcanescu 125</string>
+    <string name="m_attraction_four_name">Peasant Museum</string>
+    <string name="m_attraction_four_address">Soseaua Kiseleff 3</string>
+    <string name="m_attraction_five_name">Romanian Kitsch Museum</string>
+    <string name="m_attraction_five_address">Covaci 6</string>
+    <string name="m_attraction_six_name">Spring Palace</string>
+    <string name="m_attraction_six_address">Primaverii Blvd., No.50</string>
+    <string name="m_attraction_seven_name">The Art Collections Museum</string>
+    <string name="m_attraction_seven_address">111, Calea Victoriei</string>
+    <string name="m_attraction_eight_name">National History Museum</string>
+    <string name="m_attraction_eight_address">Calea Victoriei 12</string>
+    <string name="m_attraction_nine_name">The National Museum of Art</string>
+    <string name="m_attraction_nine_address">Calea Victoriei no. 49</string>
+    <string name="m_attraction_ten_name">Village Museum</string>
+    <string name="m_attraction_ten_address">Kiseleff Road 28</string>
+
+    <!-- Names and addresses for landmarks category -->
+    <string name="l_attraction_one_name">Constitution Square</string>
+    <string name="l_attraction_one_address">Bucharest</string>
+    <string name="l_attraction_two_name">Kilometre Zero Monument</string>
+    <string name="l_attraction_two_address">Piata Sf. Gheorghe</string>
+    <string name="l_attraction_three_name">Kretzulescu Church</string>
+    <string name="l_attraction_three_address">45 Calea Victoriei</string>
+    <string name="l_attraction_four_name">Palace of Justice</string>
+    <string name="l_attraction_four_address">Splaiul Independentei 5</string>
+    <string name="l_attraction_five_name">Revolution Square</string>
+    <string name="l_attraction_five_address">Bucharest</string>
+    <string name="l_attraction_six_name">Sala Palatului</string>
+    <string name="l_attraction_six_address">28, Ion Campineanu street</string>
+    <string name="l_attraction_seven_name">Triumph Arch</string>
+    <string name="l_attraction_seven_address">Piata Arcul de Triumf</string>
+    <string name="l_attraction_eight_name">Unirii Square</string>
+    <string name="l_attraction_eight_address">Bucharest</string>
+    <string name="l_attraction_nine_name">University Square</string>
+    <string name="l_attraction_nine_address">Bucharest</string>
+    <string name="l_attraction_ten_name">Victoriei Street</string>
+    <string name="l_attraction_ten_address">Victoriei Street</string>
 </resources>

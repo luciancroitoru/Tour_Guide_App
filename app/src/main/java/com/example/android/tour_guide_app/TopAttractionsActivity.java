@@ -17,16 +17,16 @@ public class TopAttractionsActivity extends AppCompatActivity {
 
         // Create an array of words
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Palace of Parliament", "Izvor Street, 2-4", R.drawable.ta_palace_of_parliament));
-        locations.add(new Location("Cismigiu Gardens", "Intersection of Piata Revolutiei and B-dul Kogalniceanu", R.drawable.ta_cismigiu_gardens));
-        locations.add(new Location("Grigore Antipa Museum", "Sos. Kiseleff nr. 1", R.drawable.ta_grigore_antipa));
-        locations.add(new Location("Herastrau Park", "Bulevardul Aviatorilor", R.drawable.ta_herastrau_park));
-        locations.add(new Location("Old Town", "City Center", R.drawable.ta_old_town));
-        locations.add(new Location("Revolution Square", "Calea Victoriei Boulevard", R.drawable.ta_revolution_square));
-        locations.add(new Location("Spring Palace", "Primaverii Blvd., No.50", R.drawable.ta_spring_pallace));
-        locations.add(new Location("Stavropoleos Church", "Str. Stavropoleos nr.4", R.drawable.ta_stavropoleos_church));
-        locations.add(new Location("Victoriei Street", "Victoriei Street", R.drawable.ta_victoriei_street));
-        locations.add(new Location("Village Museum", "Kiseleff Road 28-30", R.drawable.ta_village_museum));
+        locations.add(new Location(getString(R.string.ta_attraction_one_name), getString(R.string.ta_attraction_one_address), R.drawable.ta_palace_of_parliament));
+        locations.add(new Location(getString(R.string.ta_attraction_two_name), getString(R.string.ta_attraction_two_address), R.drawable.ta_cismigiu_gardens));
+        locations.add(new Location(getString(R.string.ta_attraction_three_name), getString(R.string.ta_attraction_three_address), R.drawable.ta_grigore_antipa));
+        locations.add(new Location(getString(R.string.ta_attraction_four_name), getString(R.string.ta_attraction_four_address), R.drawable.ta_herastrau_park));
+        locations.add(new Location(getString(R.string.ta_attraction_five_name), getString(R.string.ta_attraction_five_address), R.drawable.ta_old_town));
+        locations.add(new Location(getString(R.string.ta_attraction_six_name), getString(R.string.ta_attraction_six_address), R.drawable.ta_revolution_square));
+        locations.add(new Location(getString(R.string.ta_attraction_seven_name), getString(R.string.ta_attraction_seven_address), R.drawable.ta_spring_pallace));
+        locations.add(new Location(getString(R.string.ta_attraction_eight_name), getString(R.string.ta_attraction_eight_address), R.drawable.ta_stavropoleos_church));
+        locations.add(new Location(getString(R.string.ta_attraction_nine_name), getString(R.string.ta_attraction_nine_address), R.drawable.ta_victoriei_street));
+        locations.add(new Location(getString(R.string.ta_attraction_ten_name), getString(R.string.ta_attraction_ten_address), R.drawable.ta_village_museum));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

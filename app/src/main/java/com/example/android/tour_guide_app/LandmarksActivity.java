@@ -14,18 +14,18 @@ public class LandmarksActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.location_list);
 
-        // Create an array of words
+        // Create an array of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Constitution Square", "Bucharest", R.drawable.l_constitution_square));
-        locations.add(new Location("Kilometre Zero Monument", "Piata Sf. Gheorghe", R.drawable.l_kilometre_zero_monument));
-        locations.add(new Location("Kretzulescu Church", "45 Calea Victoriei", R.drawable.l_kretzulescu_church));
-        locations.add(new Location("Palace of Justice", "Splaiul Independentei 5", R.drawable.l_palace_of_justice));
-        locations.add(new Location("Revolution Square", "Bucharest", R.drawable.l_revolution_square));
-        locations.add(new Location("Sala Palatului", "28, Ion Campineanu street", R.drawable.l_sala_palatului));
-        locations.add(new Location("Triumph Arch", "Piata Arcul de Triumf", R.drawable.l_triumph_arch));
-        locations.add(new Location("Unirii Square", "Bucharest", R.drawable.l_unirii_square));
-        locations.add(new Location("University Square", "Bucharest", R.drawable.l_university_square));
-        locations.add(new Location("Victoriei Street", "Victoriei Street", R.drawable.l_victoriei_street));
+        locations.add(new Location(getString(R.string.l_attraction_one_name), getString(R.string.l_attraction_one_address), R.drawable.l_constitution_square));
+        locations.add(new Location(getString(R.string.l_attraction_two_name), getString(R.string.l_attraction_two_address), R.drawable.l_kilometre_zero_monument));
+        locations.add(new Location(getString(R.string.l_attraction_three_name), getString(R.string.l_attraction_three_address), R.drawable.l_kretzulescu_church));
+        locations.add(new Location(getString(R.string.l_attraction_four_name), getString(R.string.l_attraction_four_address), R.drawable.l_palace_of_justice));
+        locations.add(new Location(getString(R.string.l_attraction_five_name), getString(R.string.l_attraction_five_address), R.drawable.l_revolution_square));
+        locations.add(new Location(getString(R.string.l_attraction_six_name), getString(R.string.l_attraction_six_address), R.drawable.l_sala_palatului));
+        locations.add(new Location(getString(R.string.l_attraction_seven_name), getString(R.string.l_attraction_seven_address), R.drawable.l_triumph_arch));
+        locations.add(new Location(getString(R.string.l_attraction_eight_name), getString(R.string.l_attraction_eight_address), R.drawable.l_unirii_square));
+        locations.add(new Location(getString(R.string.l_attraction_nine_name), getString(R.string.l_attraction_nine_address), R.drawable.l_university_square));
+        locations.add(new Location(getString(R.string.l_attraction_ten_name), getString(R.string.l_attraction_ten_address), R.drawable.l_victoriei_street));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

@@ -15,18 +15,18 @@ public class MuseumsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.location_list);
 
-        // Create an array of words
+        // Create an array of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("George Enescu Museum", "Calea Victorei 141", R.drawable.m_george_enescu_museum));
-        locations.add(new Location("Grigore Antipa Museum", "Sos. Kiseleff nr. 1", R.drawable.m_grigore_antipa));
-        locations.add(new Location("National Military Museum", "Strada Mircea Vulcanescu 125-127", R.drawable.m_national_military_museum));
-        locations.add(new Location("Peasant Museum", "Soseaua Kiseleff 3", R.drawable.m_peasant_museum));
-        locations.add(new Location("Romanian Kitsch Museum", "Covaci 6", R.drawable.m_romanian_kitsch_museum));
-        locations.add(new Location("Spring Palace", "Primaverii Blvd., No.50", R.drawable.m_spring_pallace));
-        locations.add(new Location("The Art Collections Museum", "111, Calea Victoriei", R.drawable.m_the_art_collections_museum));
-        locations.add(new Location("National History Museum", "Calea Victoriei 12", R.drawable.m_the_national_history_museum));
-        locations.add(new Location("The National Museum of Art", "Calea Victoriei no. 49-53", R.drawable.m_the_national_museum_of_art));
-        locations.add(new Location("Village Museum", "Kiseleff Road 28-30", R.drawable.m_village_museum));
+        locations.add(new Location(getString(R.string.m_attraction_one_name), getString(R.string.m_attraction_one_address), R.drawable.m_george_enescu_museum));
+        locations.add(new Location(getString(R.string.m_attraction_two_name), getString(R.string.m_attraction_two_address), R.drawable.m_grigore_antipa));
+        locations.add(new Location(getString(R.string.m_attraction_three_name), getString(R.string.m_attraction_three_address), R.drawable.m_national_military_museum));
+        locations.add(new Location(getString(R.string.m_attraction_four_name), getString(R.string.m_attraction_four_address), R.drawable.m_peasant_museum));
+        locations.add(new Location(getString(R.string.m_attraction_five_name), getString(R.string.m_attraction_five_address), R.drawable.m_romanian_kitsch_museum));
+        locations.add(new Location(getString(R.string.m_attraction_six_name), getString(R.string.m_attraction_six_address), R.drawable.m_spring_pallace));
+        locations.add(new Location(getString(R.string.m_attraction_seven_name), getString(R.string.m_attraction_seven_address), R.drawable.m_the_art_collections_museum));
+        locations.add(new Location(getString(R.string.m_attraction_eight_name), getString(R.string.m_attraction_eight_address), R.drawable.m_the_national_history_museum));
+        locations.add(new Location(getString(R.string.m_attraction_nine_name), getString(R.string.m_attraction_nine_address), R.drawable.m_the_national_museum_of_art));
+        locations.add(new Location(getString(R.string.m_attraction_ten_name), getString(R.string.m_attraction_ten_address), R.drawable.m_village_museum));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
